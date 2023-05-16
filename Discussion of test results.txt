@@ -1,0 +1,79 @@
+Some test results:
+
+The original matrix: 
+
+    shared_stuff->M[0][0]= 20;
+    shared_stuff->M[0][1]= 20;
+    shared_stuff->M[0][2]= 50;
+
+    shared_stuff->M[1][0]= 10;
+    shared_stuff->M[1][1]= 6;
+    shared_stuff->M[1][2]= 70;
+
+    shared_stuff->M[2][0]= 40;
+    shared_stuff->M[2][1]= 3;
+    shared_stuff->M[2][2]= 2;
+
+The final output: (you may find the detailed output in the README.txt file)
+
+    The det value of the matrix M [R] = 41140
+    The largest value of the matrix M [L] = 70
+
+Discussion: 
+
+    By comparing the resulting answer using the code I developed and the answer obtained from the calculator, 
+    I achieve the exact same results which implies that my code functions correctly.
+
+-------------------------------------------------------------------------------------
+
+The matrix: 
+
+    shared_stuff->M[0][0]= 6;
+    shared_stuff->M[0][1]= 1;
+    shared_stuff->M[0][2]= 1;
+
+    shared_stuff->M[1][0]= 4;
+    shared_stuff->M[1][1]= -2;
+    shared_stuff->M[1][2]= 5;
+
+    shared_stuff->M[2][0]= 2;
+    shared_stuff->M[2][1]= 8;
+    shared_stuff->M[2][2]= 7;
+
+The final output: 
+
+    The det value of the matrix M [R] = -306
+    The largest value of the matrix M [L] = 8
+    
+Discussion: 
+
+    By comparing the resulting answer using the code I developed and the answer obtained from the calculator, 
+    I achieve the exact same results which implies that my code functions correctly.
+
+-------------------------------------------------------------------------------------
+
+The matrix:
+
+    shared_stuff->M[0][0]= 1;
+    shared_stuff->M[0][1]= 3;
+    shared_stuff->M[0][2]= 2;
+
+    shared_stuff->M[1][0]= -3;
+    shared_stuff->M[1][1]= -1;
+    shared_stuff->M[1][2]= -3;
+
+    shared_stuff->M[2][0]= 2;
+    shared_stuff->M[2][1]= 3;
+    shared_stuff->M[2][2]= 1;
+
+The final output: 
+
+    The det value of the matrix M [R] = -15
+    The largest value of the matrix M [L] = 3
+
+Discussion: 
+
+    By comparing the resulting answer using the code I developed and the answer obtained from the calculator, 
+    I achieve the exact same results which implies that my code functions correctly.
+
+-------------------------------------------------------------------------------------
